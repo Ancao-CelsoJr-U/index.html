@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .name-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .letter {
+    font-size: 2.5rem;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .letter:hover {
+    transform: rotate(5deg) scale(1.1);
+  }
+  
+  /* Unique styles per letter */
+  .letter-c {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border-radius: 50%;
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .letter-e {
+    background: #4caf50;
+    border-radius: 15px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .letter-l {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border-radius: 5px;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .letter-s {
+    background: #ffeb3b;
+    color: #222;
+    border-radius: 0;
+    font-family: 'Impact', sans-serif;
+  }
+  
+  .letter-o1 {
+    background: repeating-linear-gradient(
+      45deg,
+      #673ab7,
+      #673ab7 10px,
+      #512da8 10px,
+      #512da8 20px
+    );
+    border-radius: 50%;
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Spacer between first and last name */
+  .spacer {
+    width: 20px;
+  }
+  
+  /* Last name letters */
+  .letter-a1 {
+    background: linear-gradient(145deg, #f12711, #f5af19);
+    border-radius: 30% 70% 70% 30%;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .letter-n {
+    background: #009688;
+    border-radius: 10px;
+    font-family: 'Lucida Console', monospace;
+  }
+  
+  .letter-c2 {
+    background: #3f51b5;
+    border-radius: 0 50% 50% 0;
+    font-family: 'Tahoma', sans-serif;
+  }
+  
+  .letter-a2 {
+    background: radial-gradient(circle, #00ffcc, #00bcd4);
+    border-radius: 50%;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .letter-o2 {
+    background: #e91e63;
+    border-radius: 15px;
+    font-family: 'Garamond', serif;
+  }
